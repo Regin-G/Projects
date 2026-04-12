@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.payment-section{
+    position: relative;
+    height: 400px;
+    width: 30%;
+    border: 2px solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 120px auto;
+}
+.payment-section h2, label{
+    position: absolute;
+}
+.payment-section h2{
+    position: absolute;
+    left: 140px;
+   margin:20px 0 30px;
+}
+.payment-section label{
+  margin: 60px 0 0 40px;
+}
+.payment-section label input{
+    position: absolute;
+    left: 160px;
+}
+#rzp-button1{
+    position: absolute;
+    height: 24px;
+    width: 80px;
+    border-radius: 10px;
+    left: 94px;
+    bottom: 10px;
+}
+#rzp-button1:hover{
+    position: absolute;
+    height: 28px;
+    width: 84px;
+    background-color: lawngreen;
+    box-shadow: 0 0 10px lawngreen;
+}
