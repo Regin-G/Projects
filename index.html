@@ -1,255 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Triny Theme Park</title>
-  <link rel="stylesheet" href="index.css" />
-</head>
-<body>
-  <!-- Top bar -->
-  <header class="site-header">
-    <div class="container header-wrap">
-      <a href="#" class="logo">WonderWave</a>
-      <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#attractions">Attractions</a>
-        <a href="#tickets">Tickets</a>
-        <a href="#map">Map</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="btn btn-sm">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <h1>Thrills, splashes, and starlit rides</h1>
-      <p>Plan the perfect day at Triny — Seoul’s favorite theme park.</p>
-      <div class="hero-actions">
-        <a href="#tickets" class="btn btn-primary">Buy tickets</a>
-        <a href="#attractions" class="btn btn-outline">Explore attractions</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Attractions -->
-  <section id="attractions" class="section">
-    <div class="container">
-      <div class="section-head">
-        <h2>Featured attractions</h2>
-        <p>From heart-pounding coasters to family-friendly adventures.</p>
-      </div>
-
-      <div class="grid cards">
-        <!-- Card 1 -->
-        <article class="card">
-          <img src="skyserpent.webp" alt="Sky Serpent coaster" />
-          <div class="card-body">
-            <h3>Sky Serpent</h3>
-            <p>High-speed loops with panoramic views.</p>
-            <div class="meta">
-              <span class="badge">Thrill</span>
-              <span class="badge">Height min: 140 cm</span>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 2 -->
-        <article class="card">
-          <img src="Tidalreef.avif" alt="Tidal Reef water zone" />
-          <div class="card-body">
-            <h3>Tidal Reef</h3>
-            <p>Wave pool, lazy river, and splash zones.</p>
-            <div class="meta">
-              <span class="badge">Water</span>
-              <span class="badge">All ages</span>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 3 -->
-        <article class="card">
-          <img src="skywheel.jpeg" alt="Starlight Wheel ferris ride" />
-          <div class="card-body">
-            <h3>Starlight Wheel</h3>
-            <p>Sunset views and photo-perfect moments.</p>
-            <div class="meta">
-              <span class="badge">Family</span>
-              <span class="badge">Accessible</span>
-            </div>
-          </div>
-        </article>
-        <!-- card 4 -->
-      
-        <!-- Card 4 -->
-        <article class="card">
-          <img src="Foodcourt.jpg" alt="Food court" />
-          <div class="card-body">
-            <h3>Food Court</h3>
-            <p>Local flavors, cool drinks, and sweet treats.</p>
-            <div class="meta">
-              <span class="badge">Dining</span>
-              <span class="badge">Veg & Non-veg</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tickets / Pricing -->
-  <section id="tickets" class="section section-accent">
-    <div class="container">
-      <div class="section-head">
-        <h2>Tickets & passes</h2>
-        <p>Choose the perfect way to play.</p>
-      </div>
-
-      <div class="grid pricing">
-        <div class="price-card">
-          <h3>Day Pass</h3>
-          <p class="price">₹1,199</p>
-          <ul class="features">
-            <li>All-day access</li>
-            <li>Most rides included</li>
-            <li>Standard queue</li>
-          </ul>
-          <a href="payment.html" class="btn btn-primary">Select</a>
-        </div>
-
-        <div class="price-card highlight">
-          <h3>Fast Lane</h3>
-          <p class="price">₹1,999</p>
-          <ul class="features">
-            <li>Skip-the-line access</li>
-            <li>Priority seating</li>
-            <li>Photo voucher</li>
-          </ul>
-          <a href="payment2.html" class="btn btn-primary">Select</a>
-        </div>
-
-        <div class="price-card">
-          <h3>Season Pass</h3>
-          <p class="price">₹4,999</p>
-          <ul class="features">
-            <li>Unlimited visits</li>
-            <li>Member events</li>
-            <li>10% food discount</li>
-          </ul>
-          <a href="payment3.html" class="btn btn-primary">Select</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Park map CTA -->
-  <section id="map" class="section">
-    <div class="container map-cta">
-      <div class="map-copy">
-        <h2>Park map</h2>
-        <p>Navigate rides, dining, and shows with our interactive map.</p>
-        <a href="map.html" class="btn btn-outline">Open map</a>
-      </div>
-      <div class="map-preview">
-        <img src="Map.png" alt="Park map preview" />
-      </div>
-    </div>
-  </section>
-
-  <!-- Schedule -->
-  <section id="schedule" class="section">
-    <div class="container">
-      <div class="section-head">
-        <h2>Today’s schedule</h2>
-        <p>Showtimes and parades run daily.</p>
-      </div>
-
-      <div class="grid schedule-grid">
-        <div class="slot">
-          <h4>Opening Parade</h4>
-          <p>10:00 AM • Main Boulevard</p>
-        </div>
-        <div class="slot">
-          <h4>Wave Show</h4>
-          <p>12:30 PM • Tidal Reef Stage</p>
-        </div>
-        <div class="slot">
-          <h4>Coaster Showcase</h4>
-          <p>3:00 PM • Sky Serpent Plaza</p>
-        </div>
-        <div class="slot">
-          <h4>Starlight Finale</h4>
-          <p>7:30 PM • Central Arena</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="section section-soft">
-    <div class="container">
-      <div class="section-head">
-        <h2>Frequently asked questions</h2>
-      </div>
-
-      <details class="faq-item">
-        <summary>Can I bring outside food?</summary>
-        <p>Small snacks and water are allowed. Larger meals must be purchased inside the park.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>Are lockers available?</summary>
-        <p>Yes, paid lockers are available near the entrance and water zone.</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>Is parking included in the ticket?</summary>
-        <p>Parking is charged separately. Season Pass holders get free parking.</p>
-      </details>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section section-dark">
-    <div class="container contact">
-      <div>
-        <h2>Contact us</h2>
-        <p>Email: reginyt40@gmail.com</p>
-        <p>Phone: +91 44 1234 5678</p>
-        <p>Address: songpa, Seoul, southkorea</p>
-      </div>
-      <form class="contact-form">
-        <label>
-          <span>Name</span>
-          <input type="text" placeholder="Your name" required />
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="email" placeholder="you@example.com" required />
-        </label>
-        <label>
-          <span>Message</span>
-          <textarea rows="4" placeholder="How can we help?" required></textarea>
-        </label>
-        <button class="btn btn-primary" type="submit">Send</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p>© 2025 Triny Theme Park • All rights reserved</p>
-      <div class="socials">
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-        <a href="#">Facebook</a>
-      </div>
-    </div>
-  </footer>
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+          <h1>Hello world!</h1>
+          <hr>
+          <p>welcome to my website,Thank you for chosing us.</p>
+          <p><abbr title="world wide web">WWW</abbr> </p>
+          <hr>
+          <ol>
+            <li><a href="#chapter3">chapter 3</a></li>
+            <li><a href="#chapter4">chapter 4</a></li>
+          </ol>
+          <hr>
+        </header>
+        <main>
+            <article id="c1">
+               <section id="chapter1">
+                  <h2>chapter1</h2>
+                  <p>this is the second chapter of my website,hope you like it.</p>
+                        <dl>
+                              <dt>first item</dt>
+                              <dd>here we can see about the first item</dd>
+                              <dt>second item</dt>
+                              <dd>here we can see the second item</dd>
+                              <dt>third item</dt>
+                              <dd>here we can see the third item</dd>
+                        </dl>
+              </section>
+            </article>  
+                  <hr>
+            <article id="c2">  
+               <section>
+                   <h2>chapter2</h2>
+                   <p>this is the second chapter of my website,hope you like it.</p>
+                       <dl>
+                            <dt>first item</dt>
+                            <dd>here we can see about the first item</dd>
+                            <dt>second item</dt>
+                            <dd>here we can see the second item</dd>
+                            <dt>third item</dt>
+                            <dd>here we can see the third item</dd>
+                      </dl>
+              </section>
+            </article>   
+               <hr>
+            <article id="c3">     
+              <section id="chapter3">
+                  <h2>chapter3</h2>
+                  <p>this is the second chapter of my website,hope you like it.</p>
+                       <dl>
+                           <dt>first item</dt>
+                           <dd>here we can see about the first item</dd>
+                           <dt>second item</dt>
+                           <dd>here we can see the second item</dd>
+                           <dt>third item</dt>
+                           <dd>here we can see the third item</dd>
+                       </dl>
+              </section>
+            </article>   
+               <hr>
+            <article id="c4">     
+               <section>
+                     <aside>
+                           <details>
+                               <summary>Guess the <mark>number of hours</mark> i will code per day ?</summary>
+                                <p> the number of hours i will code per day is  8 hours. from morning <time datetime="10:00">10 am</time>  to evening <time datetime="18:00">6 pm</time> inbetween i take small breaks.</p>
+                            </details>
+                      </aside>
+                      <br>
+                      <table>
+                            <caption>my daily schedule</caption>
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Part of the day</th>
+                                    <th>Time</th>
+                                    <th>Activity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <th rowspan="6">Morning</th>
+                                    <td> <time datetime="07:00">7 am</time></td>
+                                    <td>Wake up </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td> <time datetime="07:00">7.00 am</time><time datetime="07:05">-   07.05 am</time></td>
+                                    <td>Brush teeth</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td> <time datetime="07:05">7.05 am</time><time datetime="07:15">-   07.15 am</time></td>
+                                    <td>Meditation</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td> <time datetime="07:15">7.15 am</time><time datetime="07:25">-   07.25 am</time></td>
+                                    <td>Exercise</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td> <time datetime="07:25">7.25 am</time><time datetime="07:40">-   07.40 am</time></td>
+                                    <td>shower</td>
+                                <tr>
+                                    <td>5</td>
+                                    <td> <time datetime="07:25">7.40 am</time><time datetime="07:50">-   07.50 am</time></td>
+                                    <td>Breakfast</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <th rowspan="3">Daytime</th>
+                                    <td> <time datetime="08:00">8.00 am</time><time datetime="12:00">-   12.00 pm</time></td>
+                                    <td>Start coding</td>
+                                </tr>
+                                <tr>
+                                        <td>7</td>
+                                        <td> <time datetime="12:00">12.00 pm</time><time datetime="13:00">-   01.00 pm</time></td>
+                                        <td>Lunch break</td>
+                                </tr>
+                                <tr>
+                                        <td>8</td>
+                                        <td> <time datetime="13:00">  01.00 pm</time><time datetime="18:00">-   06.00 pm</time></td>
+                                        <td>Continue coding</td>
+                                </tr>
+                                <tr>
+                                        <td>9</td>
+                                        <th rowspan="2">Evening</th>
+                                        <td> <time datetime="18:00">  06.00 pm</time><time datetime="19:00">-   07.00 pm</time></td>
+                                        <td>Dinner</td>
+                                </tr>
+                                <tr>
+                                        <td>10</td>
+                                        <td> <time datetime="19:00">  07.00 pm</time><time datetime="22:00">-   10.00 pm</time></td>
+                                        <td>Relax and leisure time</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colSpan="4">This is what i do everyday</td>
+                                </tr>
+                            </tfoot>
+                      </table>
+               </section>
+            </article>   
+               <hr>
+            <article id="c5">     
+              <section  id="chapter4">
+                  <h2>chapter4</h2>
+                  <p>this is the second chapter of my website,hope you like it.</p>
+                       <dl>
+                           <dt>first item</dt>
+                           <dd>here we can see about the first item</dd>
+                           <dt>second item</dt>
+                           <dd>here we can see the second item</dd>
+                           <dt>third item</dt>
+                           <dd>here we can see the third item</dd>
+                      </dl>
+               </section>
+          </article>
+            <hr> 
+        </main>
+        <footer>
+           <h3>contact us</h3>   
+           <p>Thank you!</p>
+           <p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <strong>-by</strong><em>Casper</em></p>
+           <address>
+              <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Contact us:</p>
+              <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Email: <a href="mailto:info@website.com">info@website.com</a></p>
+           </address>
+              &nbsp;&nbsp;&nbsp; &nbsp; &lt;&lt;&copy; 2024 Website. All rights reserved.&gt;&gt;
+              <p><a href="#">Back to top</a></p>
+       </footer>
+    </body>
 </html>
